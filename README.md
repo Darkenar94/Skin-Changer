@@ -12,6 +12,6 @@ To prevent the user to have to edit the `config.css` and `webkit.css` files or t
 
 <ins>Your skin will stay forever, enjoy!</ins>
 
-![Screenshot 2024-05-21 211201](https://github.com/Darkenar94/rthrthrhrhrh/assets/57009875/041c2b02-b69e-4442-88d7-446839f83881)
+[![Screenshot 2024-05-21 211201](https://github.com/Darkenar94/rthrthrhrhrh/assets/57009875/041c2b02-b69e-4442-88d7-446839f83881)](https://steamcommunity.com/sharedfiles/filedetails/?id=3251646989)
 #
-![Screenshot 2024-05-21 204829](https://github.com/Darkenar94/rthrthrhrhrh/assets/57009875/972a68e8-2687-4c00-8b94-8c104657b16b)
+[![Screenshot 2024-05-21 204829](https://github.com/Darkenar94/rthrthrhrhrh/assets/57009875/972a68e8-2687-4c00-8b94-8c104657b16b)](https://steamcommunity.com/sharedfiles/filedetails/?id=3251641894)
