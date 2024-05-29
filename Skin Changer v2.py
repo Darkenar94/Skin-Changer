@@ -24,18 +24,16 @@ def select_path(dictionary):
         return dict_keys[1], "skin"
     return dict_keys[0], "doc"
 
-def add_text(wrong_path, text):
-    if wrong_path == "doc":
-        print(text)
+def add_text(wrong_path):
+    if wrong_path[1] == "doc":
+        print(" put the skin folder in the documents folder. !read the guide! ")
 
 def get_path(wrong_path):
-    if wrong_path[1] == "doc":
-        text = " put the skin folder in the documents folder. !read the guide! "
     running = True
     while running:
         if not os.path.exists(wrong_path[0]):
             print("\n Oops! I can't find the path to your skin :D")
-            add_text(wrong_path[1], text)
+            add_text(wrong_path)
             path = input("\n  Enter the path manually pls: ")
             if os.path.exists(path):
                 print("\n Skin path found! ^_^")
