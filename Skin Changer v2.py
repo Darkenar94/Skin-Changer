@@ -44,6 +44,12 @@ def second_path_check(dictionary):
     selected_path = select_path(dictionary)
     return get_path(selected_path)
 
+def kill_steam():
+    try:
+        os.system("taskkill /f /im Steam.exe")
+    except:
+        pass
+
 user_folder = os.path.expanduser('~')
 config_path = os.path.join(user_folder, r"Documents\config.txt") 
 documents = os.path.join(user_folder, r"Documents\skin")
@@ -64,6 +70,7 @@ if not os.path.exists(config_path):
 else:
     skin_path, documents = read_paths(config_path)
 
+kill_steam()
 os.chdir(documents)
 
 for file in os.listdir():
